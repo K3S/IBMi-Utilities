@@ -3,7 +3,7 @@
        Ctl-Opt
          MAIN(NJOBNOTIFY)
          DFTACTGRP(*NO)
-         ACTGRP(*NEW)
+         ACTGRP('K3S_ACTG_5')
          BNDDIR('QC2LE');
        Dcl-S  errmsgid CHAR(7) Import('_EXCP_MSGID');
        Dcl-PR Cmd Int(10) ExtProc('system');
