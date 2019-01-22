@@ -1,10 +1,10 @@
       ******************************************************************
-     h MAIN(AR_SLKMSG)
+     h MAIN(SLKMSG)
      h DFTACTGRP(*NO) ACTGRP(*NEW)
      h BNDDIR('QC2LE')
       ******************************************************************
       **
-      **   Name: AR_SLKMSG
+      **   Name: SLKMSG
       **   Type: ILE RPG Program
       **   Desc: Send messages and notifications via Slack
       **   Auth: Tom Reynolds
@@ -38,13 +38,13 @@
        END-DS;
 
        // Program prototype for the main program
-       Dcl-PR AR_SLKMSG EXTPGM;
+       Dcl-PR SLKMSG EXTPGM;
              code    CHAR(3);
              channel CHAR(100);
              message CHAR(32000);
        END-PR;
 
-       Dcl-PROC AR_SLKMSG;
+       Dcl-PROC SLKMSG;
          Dcl-PI *N;
              code    CHAR(3);
              channel CHAR(100);
