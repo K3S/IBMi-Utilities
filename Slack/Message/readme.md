@@ -15,7 +15,7 @@ published: false
 
 # Requirements
 
-IBM 7.2 with technology refresh 7 or higher. For more details concerning the Slack interface used, please see (Slack Chat Post Message Method)[https://api.slack.com/methods/chat.postMessage] and the (Slack File Upload Method)[https://api.slack.com/methods/files.upload]. 
+IBM 7.2 with technology refresh 7 or higher. For more details concerning the Slack interface used, please see [Slack Chat Post Message Method](https://api.slack.com/methods/chat.postMessage) and the [Slack File Upload Method](https://api.slack.com/methods/files.upload). 
 
 ### SLKMSG - Send a message to a slack channel using a bot
 ```
