@@ -15,11 +15,18 @@ published: false
 
 # Requirements
 
-IBM 7.2 with technology refresh 7 or higher.
+IBM 7.2 with technology refresh 7 or higher. 
 
 ### SLKMSG - Send a message to a slack channel using a bot
 ```
 BOTH            COMP              'Company code'                   3A
 BOTH            CHANNEL           'Slack Channel'                100A
 BOTH            MESSAGE           'Message to send'            32000A
+```
+
+### SLKUPL - Upload a file to a slack channel using a bot
+```
+BOTH            COMP              'Company code'                   3A
+BOTH            FILE              'File path and name'           255A
+BOTH            EXTENSION         'File extension'                 3A
 ```
