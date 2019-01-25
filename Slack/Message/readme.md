@@ -13,11 +13,11 @@ published: false
 * TOC
 {:toc}
 
-### System Requirements
+# Requirements
 
-This.
+IBM 7.2 with technology refresh 7 or higher.
 
-## SLKMSG - Send a message to a slack channel using a bot
+### SLKMSG - Send a message to a slack channel using a bot
 ```
 BOTH            COMP              'Company code'                   3A
 BOTH            CHANNEL           'Slack Channel'                100A
