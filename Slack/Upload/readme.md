@@ -1,13 +1,3 @@
----
-layout: api
-title: Slack Utilities
-categories:
-  - API List
-  - SLK
-author: Tom Reynolds
-tags: slkmsg slkupl utilities 
-published: false
----
 
 # Requirements
 
