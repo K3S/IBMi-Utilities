@@ -20,8 +20,8 @@ dcl-s vusr varchar(10) ;
    //vusr = %trim(usr);
     EXEC SQL
       DECLARE Cur CURSOR FOR
-        select JOB_NAME from table(qsys2.active_job_info(RESET_STATISTICS =>
-        'YES')) x where JOB_NAME LIKE '%QUSER/QZDASOINIT%';
+        select JOB_NAME, AUTHORIZATION_NAME from table(qsys2.active_job_info(RESET_STATISTICS =>
+        'YES')) x where JOB_NAME LIKE '%QUSER/QZDASOINIT%' and AUTHORIZATION_NAME = 'USERCALLINGODBC';
     EXEC SQL OPEN Cur;
     EXEC SQL
       FETCH NEXT FROM Cur
